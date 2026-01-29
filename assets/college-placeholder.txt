@@ -1,5 +1,0 @@
-# Rungta College Image Placeholder
-
-Save the Rungta College of Engineering image here as `college.jpg`
-
-The portfolio will display this image next to your profile photo in the hero section.

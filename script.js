@@ -481,3 +481,21 @@ window.addEventListener('scroll', () => {
 });
 
 console.log('3D Portfolio loaded successfully! 🚀');
+
+// Resume PDF viewer
+function openResume() {
+    // Resume PDF path from assets folder
+    const resumePath = 'assets/Aman Wipro resume.pdf';
+    
+    // Open in new tab
+    window.open(resumePath, '_blank');
+}
+
+// Initialize resume button click handler
+document.addEventListener('DOMContentLoaded', () => {
+    const resumeBtn = document.getElementById('resumeBtn');
+    if (resumeBtn) {
+        resumeBtn.addEventListener('click', openResume);
+    }
+});
+
