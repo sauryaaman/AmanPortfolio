@@ -485,7 +485,7 @@ console.log('3D Portfolio loaded successfully! 🚀');
 // Resume PDF viewer
 function openResume() {
     // Resume PDF path from assets folder
-    const resumePath = 'assets/Aman Wipro resume.pdf';
+    const resumePath = 'assets/Aman_Kumar_Resume.pdf';
     
     // Open in new tab
     window.open(resumePath, '_blank');
